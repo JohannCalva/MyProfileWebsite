@@ -1,0 +1,121 @@
+.profile-img {
+    height: 180px;
+    width: 180px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+.mars{
+    height: 100px;
+    position: absolute;
+    right: 300px;
+    top: 40px;
+    
+}
+.moon{
+    height: 100px;
+    position: absolute;
+    left: 100px;
+}
+.astronaut{
+    height: 350px;
+    padding-top: 75px;
+}
+.g-img{
+    width: 100%;
+}
+.english{
+    grid-row: span 2;
+}
+.development{
+    grid-row: span 2;
+}
+.curriculum{
+    grid-row: span 2;
+    border: 1px solid #17153B;
+}
+.projects{
+    grid-row: span 2;
+}
+body{
+    margin: 0;
+    text-align: center;
+    font-family: "Libre Baskerville", serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #2E236C;
+}
+h1{
+    color: #C8ACD6;
+    font-family: "Sacramento", serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 6rem;
+    margin: 50px auto 0 auto;
+}
+h2{
+    color: #C8ACD6;
+    font-family: "Montserrat", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+h3{
+    color: #C8ACD6;
+    font-family: "Montserrat", serif;
+    font-weight: bold;
+}
+hr{
+    border: dotted #EEEEEE 6px;
+    border-bottom: none;
+    margin: 50px auto;
+    width: 40%;
+}
+.header-section{
+    background-color: #17153B;
+    padding-top: 100px;
+}
+.hero-section{
+    margin: 100px auto auto auto;
+}
+.intro{
+    width: 50%;
+    margin: auto;
+}
+.contact{
+    width: 50%;
+    margin: auto;
+    text-align: left;
+}
+.contact-section{
+    margin: 0 0 40px 0;
+}
+.footer-section{
+    background-color: #2E236C;
+    padding: 50px 0 20px 0;
+}
+
+.copyright{
+    color: #EEEEEE;
+    font-size: 9pt;
+    padding: 10px 0;
+}
+.link-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-content: center;
+}
+.link{
+    color: #C8ACD6;
+    text-decoration: none;
+    font-family: "Montserrat", serif;
+}
+.grid-container{
+    display: grid;
+    margin: auto;
+    max-width: 50%;
+    gap: 10px;
+    grid-template-columns: 1fr 2fr;
+    grid-template-rows: 1fr 2fr 1fr 2fr;
+    text-align: left;
+}
